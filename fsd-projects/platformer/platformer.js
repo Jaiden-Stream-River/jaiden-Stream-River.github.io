@@ -36,7 +36,7 @@ $(function () {
     createPlatform(850, 470, 90, 20, "darkGray");
     createPlatform(100, 500, 90, 20, "darkGray");
     createPlatform(1000, 350, 90, 20, "darkGray");
-    createPlatform(900, 215, 90, 20, "darkGray");
+    createPlatform(900, 225, 90, 20, "darkGray");
     createPlatform(700, 200, 90, 20, "darkGray");
     createPlatform(1300, 300, 90, 20, "darkGray");
     createPlatform(400, 400, 90, 20, "darkGray");
@@ -48,9 +48,9 @@ $(function () {
     createCollectable("boots", 1350, 200);
     // idk when i did that everything disapereed
     // TODO 4 - Create Cannons
-    createCannon("top", 300, 1000);
-    createCannon("left", 200, 1000);
-    createCannon("bottom", 1200, 1000);
+    createCannon("top", 300, 1500);
+    createCannon("left", 200, 1500);
+    createCannon("bottom", 1200, 1550);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
