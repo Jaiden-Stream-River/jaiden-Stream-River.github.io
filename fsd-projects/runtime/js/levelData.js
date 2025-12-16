@@ -15,9 +15,12 @@ var makeLevelData = function (window) {
         number: 1,
         speed: -3,
         gameItems: [
-          { type: "sawblade", x: 400, y: groundY },
-          { type: "sawblade", x: 600, y: groundY },
+          { type: "reward", x: 400, y: groundY },
+          { type: "enemy", x: 600, y: groundY },
           { type: "sawblade", x: 900, y: groundY },
+          { type: "sawblade", x: 1200, y: groundY },
+          { type: "sawblade", x: 1300, y: groundY },
+          { type: "end-of-Level", x: 1500, y: groundY },
         ],
       },
       {
@@ -25,9 +28,25 @@ var makeLevelData = function (window) {
         number: 2,
         speed: -3,
         gameItems: [
-          { type: "sawblade", x: 400, y: groundY },
-          { type: "sawblade", x: 600, y: groundY },
+          { type: "reward", x: 300, y: groundY },
+          { type: "enemy", x: 400, y: groundY },
+          { type: "sawblade", x: 500, y: groundY },
+          { type: "sawblade", x: 1000, y: groundY },
+          { type: "sawblade", x: 1100, y: groundY },
+          { type: "end-of-Level", x: 1200, y: groundY },,
+        ],
+      },
+       {
+        name: "Robot groving",
+        number: 3,
+        speed: -3,
+        gameItems: [
+          { type: "reward", x: 500, y: groundY },
+          { type: "enemy", x: 300, y: groundY },
           { type: "sawblade", x: 900, y: groundY },
+          { type: "sawblade", x: 1200, y: groundY },
+          { type: "sawblade", x: 1300, y: groundY },
+          { type: "end-of-Level", x: 1500, y: groundY },
         ],
       },
     ];

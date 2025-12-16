@@ -91,12 +91,12 @@ function createMarker(x, y){
      Marker.onPlayerCollision() = function () {
           startLevel()
         }; 
-      Marker.onProjectileCollision() = function onProjectileCollision() {
+      Marker.onProjectileCollision() = function () {
           startLevel()
         }; 
     
 }
-createMarker(250, groundY - 70)
+createMarker(1050, groundY - 70)
 
     function startLevel() {
       // TODO 13 goes below here
