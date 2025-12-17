@@ -100,7 +100,11 @@ createMarker(1050, groundY - 70)
 
     function startLevel() {
       // TODO 13 goes below here
-
+      var level = levelData[currentLevel]
+      var levelObjects = level.gameItems
+      for(var i =0; i < levelObjects.length; i++){
+          var eachObject = levelObjects[i]
+      }
       //////////////////////////////////////////////
       // DO NOT EDIT CODE BELOW HERE
       //////////////////////////////////////////////
@@ -121,4 +125,4 @@ if (
 ) {
   // here, export any references you need for tests //
   module.exports = runLevels;
-}
+} 
