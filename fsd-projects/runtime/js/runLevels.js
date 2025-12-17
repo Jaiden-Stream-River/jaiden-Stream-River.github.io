@@ -18,6 +18,8 @@ var runLevels = function (window) {
 
     // TODOs 5 through 11 go here
     // BEGIN EDITING YOUR CODE HERE
+
+  // sawBlades
     function createSawBlade(x, y) {
       var hitZoneSize = 25; //gray circle
       var damageFromObstacle = 10;
@@ -36,6 +38,7 @@ var runLevels = function (window) {
     createSawBlade(400, 325);
     createSawBlade(700, 200);
     createSawBlade(700, 370);
+  //Enemys 
     function createEnemy(x, y) {
       var enemy = game.createGameItem("enemy", 25);
       var redSquare = draw.rect(50, 50, "red");
@@ -58,6 +61,8 @@ var runLevels = function (window) {
     createEnemy(400, groundY - 10);
     createEnemy(800, groundY - 100);
     createEnemy(1200, groundY - 50);
+
+  // Reward/healing
 function createReward (x, y){
    var Reward = game.createGameItem("Reward", 25);
       var blueSquare = draw.rect(50, 50, "blue");
@@ -76,7 +81,7 @@ function createReward (x, y){
   createReward(600, groundY - 70)
 
 
-
+//end of level marker
 function createMarker(x, y){
   var Marker = game.createGameItem("Marker", 25);
       var yellowsquare = draw.rect(50, 50, "yellow");
